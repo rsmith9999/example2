@@ -251,6 +251,13 @@ footer a {
     display: block;
   }
 
+  .section-intro {
+    display: block;
+  }
+
+  .section-service-breakdown {
+    display: block;
+  }
   /* Mobile Menu */
 
   .mobile-navigation {
