@@ -31,6 +31,7 @@ body {
 
 header {
   background-color: var(--header-color);
+  height: 150px;
 }
 
 .desktop-header {
@@ -193,7 +194,7 @@ footer a {
   }
 
   header {
-    height: 100px;
+    height: 120px;
     margin-bottom: 20px;
   }
 
