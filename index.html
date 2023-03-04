@@ -22,30 +22,30 @@
       <div class="desktop-header">
         <img src="./assests/imgs/logo.svg" alt="ElectroClean Glasgow" />
         <ul>
-          <li>Home</li>
+          <li><a href="./index.html" target="_self">Home</a></li>
           <li>About</li>
           <li>Services</li>
-          <li>Contact Us</li>
+          <li><a href="./contact-us.html" target="_self">Contact Us</a></li>
         </ul>
-      </div>
-      <div class="mobile-header">
-        <!-- MOBILE -->
-        <div class="mobile-navigation">
-          <a href="#" class="active"
-            ><img src="./assests/imgs/footer-logo.svg" alt="Home"
-          /></a>
-          <div id="myLinks">
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
-          </div>
-          <a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>
       </div>
       <!-- MOBILE END -->
     </header>
+    <div class="mobile-header">
+      <!-- MOBILE -->
+      <div class="mobile-navigation">
+        <a href="./index.html" class="active"
+          ><img src="./assests/imgs/footer-logo.svg" alt="Home"
+        /></a>
+        <div id="myLinks">
+          <a href="#" target="_self">About</a>
+          <a href="#" target="_self">Services</a>
+          <a href="./contact-us.html" target="_self">Contact</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
     <div class="container">
       <div class="section-intro">
         <div class="intro-title">
@@ -119,15 +119,28 @@
           <p>©️ElectroClean Glasgow 2023</p>
         </div>
         <div class="footer-center">
+          <h3>Follow us on</h3>
           <ul>
-            <li>Twitter</li>
-            <li>Facebook</li>
-            <li>Instagram</li>
+            <li class="twitter" title="twitter.com/">
+              <a href="https://www.twitter.com/" target="_blank"
+                ><img src="./assests/imgs/twitter.svg" alt="twitter.com/"
+              /></a>
+            </li>
+            <li class="facebook" title="facebook.com/">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img src="./assests/imgs/facebook.svg" alt="facebook.com/"
+              /></a>
+            </li>
+            <li class="instagram" title="instagram.com/">
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img src="./assests/imgs/instagram.svg" alt="instagram.com/"
+              /></a>
+            </li>
           </ul>
         </div>
         <div class="footer-right">
           <p class="contact-us">
-            <a href="./pages/contact.html"
+            <a href="#"
               >Get In Touch
               <span class="material-symbols-outlined">send</span></a
             >
