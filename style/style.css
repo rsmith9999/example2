@@ -10,12 +10,14 @@
   --border-color: #f0f0f0;
   --content-background-color: #89b8ff;
   --footer-font-size: 15px;
-  --header-color: #00b8ba;
+  /* --header-color: #00b8ba; */
+  --header-color: #89b8ff;
   --mobile-navigation-hover: #009396;
-  --footer-color: #24405c;
+  --footer-color: #003959;
   --footer-text: #87969e;
   --info-text-color: #87969e;
   --warning: #ff0000;
+  --action-color: #FFD089;
 }
 
 html,
@@ -40,7 +42,6 @@ header {
 
 header a {
   text-decoration: none;
-  padding: 15px;
   font-size: var(--main-font-size);
   color: var(--navigation-button);
 }
@@ -64,10 +65,11 @@ header a:hover {
   position: absolute;
   right: 0;
   top: 20px;
+  gap: 2em;
+  padding-right: 24px;
 }
 
 .desktop-header ul > li {
-  padding: 15px;
   font-size: var(--main-font-size);
 }
 
@@ -541,5 +543,9 @@ form h5 {
   .form-group input,
   textarea {
     width: 90%;
+  }
+
+  .form-container {
+    width: 70vw;
   }
 }
