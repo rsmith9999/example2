@@ -402,6 +402,13 @@ form h5 {
   color: var(--warning);
 }
 
+.redir-container {
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  bottom: 50%;
+}
+
 /* CONTACT US PAGE END */
 
 @media (width < 1000px) {

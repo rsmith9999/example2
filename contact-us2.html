@@ -7,6 +7,7 @@
     <title>Contact Us | ElectroClean | Glasgow</title>
     <link rel="stylesheet" href="./style/style.css" />
     <script src="./source/app.js"></script>
+    <script src="./source/form.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -74,7 +75,7 @@
         <div class="form-group">
           <form
             id="contactform"
-            action="https://formsubmit.io/send/testing.rsmith9996@gmail.com"
+            action="https://formsubmit.io/send/2f1ca8b0548d04b5fc743c4825efffcc"
             method="POST"
           >
             <h5 class="required">Name:</h5>
@@ -85,7 +86,7 @@
             <input
               type="number"
               name="contactNumber"
-              pattern="^(?:0|\(?\+33\)?\s?|0033\s?)[1-79](?:[\.\-\s]?\d\d){4}$"
+              pattern="^(\+44\s?7\d{3}|\(?07\d{3}\)?)\s?\d{3}\s?\d{3}$"
               required
             />
             <h5 class="required">A brief description of your query:</h5>
@@ -96,13 +97,9 @@
             <input
               type="hidden"
               name="_next"
-              value="http://rsmith9999.github.io/index.html"
+              value="https://rsmith9999.github.io/example/thanks.html"
             />
-            <input
-              type="hidden"
-              name="_url"
-              value="http://127.0.0.1:5500/contact-us2.html"
-            />
+            <input type="hidden" name="_captcha" value="false" />
 
             <input value="Submit" type="submit" />
           </form>
