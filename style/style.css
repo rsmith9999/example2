@@ -17,7 +17,7 @@
   --footer-text: #87969e;
   --info-text-color: #87969e;
   --warning: #ff0000;
-  --action-color: #FFD089;
+  --action-color: #ffd089;
 }
 
 html,
@@ -403,10 +403,24 @@ form h5 {
 }
 
 .redir-container {
-  height: 100vh;
-  margin: auto;
+  height: 100%;
+  /* margin: auto; */
   text-align: center;
-  bottom: 50%;
+  vertical-align: middle;
+  margin-top: 20%;
+  padding: 24px;
+}
+
+.redir-container h1 {
+  font-size: 60px;
+}
+
+.redir-container p {
+  font-size: 25px;
+}
+
+.thanks-body {
+  background-image: url(../assests/imgs/vecteezy_abstract-blue-background-with-gradient-lines_20122694.jpg);
 }
 
 /* CONTACT US PAGE END */
@@ -554,5 +568,9 @@ form h5 {
 
   .form-container {
     width: 70vw;
+  }
+
+  .redir-container p {
+    font-size: 15px;
   }
 }
