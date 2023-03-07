@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | ElectroClean | Glasgow</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/services-tabs.css" />
+    <script src="./source/app.js"></script>
+    <script src="./source/tabs.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="icon" href="./assests/imgs/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <div class="desktop-header">
+        <img src="./assests/imgs/logo.svg" alt="ElectroClean Glasgow" />
+        <ul>
+          <li><a href="./index.html" target="_self">Home</a></li>
+          <li>About</li>
+          <li><a href="./services.html" target="_self">Services</a></li>
+          <li><a href="./contact-us.html" target="_self">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- MOBILE END -->
+    </header>
+    <div class="mobile-header">
+      <!-- MOBILE -->
+      <div class="mobile-navigation">
+        <a href="./index.html" class="active"
+          ><img src="./assests/imgs/footer-logo.svg" alt="Home"
+        /></a>
+        <div id="myLinks">
+          <a href="#" target="_self">About</a>
+          <a href="./services.html" target="_self">Services</a>
+          <a href="./contact-us.html" target="_self">Contact</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+    <div class="tab-container">
+      <div class="intro-to-services">
+        <h1>What do we offer?</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+          necessitatibus animi adipisci incidunt, cum voluptatum ab velit
+          eveniet iusto iste ex porro molestiae! Itaque, rem est laboriosam quia
+          nobis doloremque sit veritatis vel sapiente facilis nihil blanditiis
+          voluptas officiis quos, temporibus exercitationem necessitatibus illum
+          modi reiciendis. Quidem dolore quisquam possimus.
+        </p>
+      </div>
+      <div class="service-tabs">
+        <div class="w3-bar w3-black">
+          <button
+            class="w3-bar-item w3-button"
+            onclick="openService('commercialClean')"
+          >
+            Commercial Cleaning
+          </button>
+          <button
+            class="w3-bar-item w3-button"
+            onclick="openService('tenancyClean')"
+          >
+            Tenancy Cleans
+          </button>
+          <button
+            class="w3-bar-item w3-button"
+            onclick="openService('ovenCleans')"
+          >
+            Oven Cleans
+          </button>
+          <button
+            class="w3-bar-item w3-button"
+            onclick="openService('infectionControl')"
+          >
+            Infection Control
+          </button>
+          <button
+            class="w3-bar-item w3-button"
+            onclick="openService('pestControl')"
+          >
+            Pest Control
+          </button>
+          <button
+            class="w3-bar-item w3-button"
+            onclick="openService('traumaCleans')"
+          >
+            Trauma Cleans
+          </button>
+          <button
+            class="w3-bar-item w3-button"
+            onclick="openService('biohazardCleans')"
+          >
+            Biohazard Cleans
+          </button>
+          <button
+            class="w3-bar-item w3-button"
+            onclick="openService('highLevelCleans')"
+          >
+            High Level Cleaning
+          </button>
+          <button
+            class="w3-bar-item w3-button"
+            onclick="openService('kitchenDeepCleans')"
+          >
+            Kitchen Deep Cleans
+          </button>
+        </div>
+
+        <div id="commercialClean" class="w3-container ecgService">
+          <h2>Commercial Cleaning</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit cumque explicabo minima voluptatem nesciunt suscipit,
+            dicta repellat aperiam deleniti ducimus, quia vitae dolorum quis
+            eligendi! Explicabo beatae assumenda velit. Illo laborum voluptatem
+            ex excepturi, minus esse. Exercitationem ipsam sequi, voluptatum et
+            culpa quisquam eum maiores vel laboriosam nisi, minima beatae.
+          </p>
+        </div>
+
+        <div
+          id="tenancyClean"
+          class="w3-container ecgService"
+          style="display: none"
+        >
+          <h2>Tenancy Cleans</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure esse
+            eius excepturi voluptatibus sed saepe, quasi repellat. Sapiente
+            eaque odit sunt numquam vel, qui quam odio accusamus dolore
+            cupiditate modi ullam? Deleniti fugit ut delectus repudiandae neque
+            tenetur animi earum modi maiores nulla error ipsa, quod nostrum
+            adipisci obcaecati molestiae.
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error hic
+            dolorem rerum ullam porro accusamus iure, repellat maxime alias,
+            tempora, libero doloremque temporibus praesentium vitae ducimus
+            dignissimos repudiandae cum impedit perferendis reiciendis illum
+            quisquam. Et laborum blanditiis deserunt voluptates impedit atque,
+            enim nostrum perspiciatis nemo perferendis, aperiam cum voluptate
+            quibusdam.
+          </p>
+          <img
+            src="./assests/imgs/vacuum-cleaner-svgrepo-com.svg"
+            alt="Vacuum Cleaner"
+          />
+        </div>
+
+        <div
+          id="ovenCleans"
+          class="w3-container ecgService"
+          style="display: none"
+        >
+          <h2>Oven Cleans</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam
+            nulla, fugiat inventore delectus eum quos fuga perspiciatis expedita
+            maxime exercitationem ex natus? Quod ducimus eum nisi distinctio
+            magni quos quae, ipsa mollitia optio, tempora obcaecati ea et quasi
+            voluptate deleniti placeat dignissimos voluptates? Sunt laboriosam
+            veritatis ducimus perspiciatis dolores et!
+          </p>
+        </div>
+
+        <div
+          id="infectionControl"
+          class="w3-container ecgService"
+          style="display: none"
+        >
+          <h2>Infection Control</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            hic deleniti odit quae facilis, minus tenetur vitae voluptatibus
+            quod natus ipsum eos consectetur veniam enim, minima error unde
+            libero aut vero maxime quam culpa dolores consequatur velit? Omnis,
+            optio reprehenderit vero suscipit blanditiis cum nulla velit
+            exercitationem tempore maiores porro?
+          </p>
+        </div>
+
+        <div
+          id="pestControl"
+          class="w3-container ecgService"
+          style="display: none"
+        >
+          <h2>Pest Control</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
+            ullam similique aliquid ad itaque quam dolorem numquam ratione quae
+            asperiores, possimus quo corrupti repellat porro, temporibus ipsam
+            incidunt iusto? Deserunt vel magnam aliquam aspernatur totam quas
+            sapiente? Error nulla omnis iusto officia quae ipsam molestias
+            excepturi necessitatibus! Animi, quam cum.
+          </p>
+          <img src="./assests/imgs/Rat-by-Rones.svg" alt="Rat" />
+        </div>
+
+        <div
+          id="traumaCleans"
+          class="w3-container ecgService"
+          style="display: none"
+        >
+          <h2>Trauma Cleans</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
+            praesentium iusto possimus eaque quidem temporibus repellat illo
+            porro incidunt asperiores enim commodi illum, nesciunt reprehenderit
+            quos delectus, atque ipsa. Repellendus eaque et, temporibus, quae
+            sit quidem harum corrupti hic cupiditate maiores placeat ut incidunt
+            inventore sed accusamus iure voluptates dignissimos.
+          </p>
+        </div>
+
+        <div
+          id="biohazardCleans"
+          class="w3-container ecgService"
+          style="display: none"
+        >
+          <h2>Biohazard Cleans</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            officia nobis porro alias ratione libero magni perferendis dolore
+            mollitia labore eveniet saepe totam eos soluta dolorem
+            exercitationem, beatae, illum a, consequatur ea! Nemo dignissimos
+            placeat tempora quae autem a sit totam esse, fugit molestias
+            deleniti eius! Tempore vitae quis tempora.
+          </p>
+        </div>
+
+        <div
+          id="highLevelCleans"
+          class="w3-container ecgService"
+          style="display: none"
+        >
+          <h2>High Level Cleaning</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
+            suscipit molestiae aut maiores deserunt sed assumenda nostrum
+            aliquam. Laudantium, consectetur ea quis animi quae obcaecati
+            corporis, harum molestiae voluptatum repellat illum, alias molestias
+            tempore aspernatur recusandae esse laboriosam. Voluptatibus atque
+            repudiandae maxime totam molestias doloremque earum vitae
+            consectetur pariatur sit.
+          </p>
+        </div>
+
+        <div
+          id="kitchenDeepCleans"
+          class="w3-container ecgService"
+          style="display: none"
+        >
+          <h2>Kitchen Deep Cleans</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni
+            tempora dignissimos eveniet id cupiditate, inventore placeat
+            ducimus. Et ducimus voluptas incidunt provident perferendis vero,
+            deserunt, expedita ex est nesciunt molestiae accusamus pariatur
+            fugiat porro alias dolores assumenda a magnam beatae amet tempora
+            nemo! Nisi numquam voluptatum, consequatur sunt in libero!
+          </p>
+        </div>
+      </div>
+      <h2>Have any questions?</h2>
+      <p>
+        If you have any questions about our services or don't see something that
+        you're looking for, you can contact us
+        <a href="./contact-us.html" target="_self">here</a>.
+      </p>
+      <h2>Have an Emergency?</h2>
+      <p>
+        Call us on: +44(0)000 000 0000 <br /><br />
+        ipsum dolor sit amet consectetur, adipisicing elit. Quaerat eveniet
+        ipsum recusandae dolores dignissimos. Tempore minus cumque quisquam,
+        iusto alias totam similique voluptas aspernatur aliquid!
+      </p>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <p>©️ElectroClean Glasgow 2023</p>
+        </div>
+        <div class="footer-center">
+          <h3>Follow us on</h3>
+          <ul>
+            <li class="twitter" title="twitter.com/">
+              <a href="https://www.twitter.com/" target="_blank"
+                ><img src="./assests/imgs/twitter.svg" alt="twitter.com/"
+              /></a>
+            </li>
+            <li class="facebook" title="facebook.com/">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img src="./assests/imgs/facebook.svg" alt="facebook.com/"
+              /></a>
+            </li>
+            <li class="instagram" title="instagram.com/">
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img src="./assests/imgs/instagram.svg" alt="instagram.com/"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-right">
+          <p class="contact-us">
+            <a href="./contact-us.html" target="_self"
+              >Get In Touch
+              <span class="material-symbols-outlined">send</span></a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
