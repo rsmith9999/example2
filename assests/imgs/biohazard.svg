@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 800 800" version="1.0">
+  <g id="layer1" stroke-linejoin="round" stroke="#000" transform="translate(-1.8086 -1.3757)" fill-rule="evenodd">
+    <path id="path1908" stroke-width="45.536" stroke-linecap="round" fill="#ff0" d="m773.84 723.57h-744.07l186.02-322.19 186.02-322.2 186.02 322.2 186.01 322.19z"/>
+    <path id="path4657" stroke-width="2.3308" stroke-linecap="square" d="m437.18 301.41l-0.34 4.03c106.67 33.3 66.14 155.41-14.59 155.06l-0.47 11c16.13 9.41 23.03 22.73 22.43 39.09l9.75 5.13c40.07-70.09 166.09-44.16 141.6 64.87l3.65 1.75c19.21-61.43-1.46-121.33-65.03-149.43h0.16c7.25-75.79-42.35-120.32-97.16-131.5zm-70.4 0.06c-62.81 14.09-104.35 61.97-96.91 131.06l-0.06-0.15c-69.27 31.61-83 96.85-65.28 149.9l3.65-1.72c-24.49-109.03 101.5-134.96 141.57-64.87l9.75-5.13c0.68-18.72 4.29-25.97 22.62-38.97l-0.41-11c-80.73 0.35-121.29-121.75-14.62-155.06l-0.31-4.06zm35.65 103.28c-22.39 0.14-44.6 7.59-64.12 21.97 4.16 7.01 8.96 13.86 15.97 20.16 29.43-19.65 61.06-23 96.22-0.38 7.18-5.49 12.81-12.14 17.12-19.78-20.24-14.93-42.8-22.11-65.19-21.97zm-104.72 87.31c-6.76 49.85 18.14 92.99 62.1 113.44 4.15-7.01 7.84-14.51 10-23.69-31.36-16.39-49.5-42.51-46.53-84.22-8.26-3.66-16.8-5.41-25.57-5.53zm208.19 4.72c-8.15 0.04-16.49 0.7-25.47 3.56 2.06 35.33-11.07 64.34-48.37 83.22 1.1 8.97 4 17.17 8.4 24.75 46.24-19.81 70.49-63.3 65.44-111.53zm-126.5 48.38l-9.31 5.87c40.67 69.75-44.79 165.89-126.97 90.16l-3.34 2.31c43.6 47.35 105.82 59.4 161.93 18.41l-0.09 0.12c62.01 44.18 125.38 23.47 162.47-18.4l-3.34-2.32c-82.18 75.73-167.64-20.41-126.97-90.15l-9.28-5.91c-15.89 9.13-29.55 8.57-45.1-0.09z"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>biohazard</dc:title>
+        <dc:date>2007-01-13T09:27:40</dc:date>
+        <dc:description>My own attempt of a biohazard symbol.</dc:description>
+        <dc:source>http://openclipart.org/detail/2882/biohazard-by-martinix</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>martinix</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>bio</rdf:li>
+            <rdf:li>biohazard</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>hazard</rdf:li>
+            <rdf:li>icon</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>sign</rdf:li>
+            <rdf:li>svg</rdf:li>
+            <rdf:li>warning</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
