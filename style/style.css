@@ -108,6 +108,10 @@ header a:hover {
 
 /* CONTAINER */
 
+body p {
+  font-size: large;
+}
+
 p > a {
   font-weight: 600;
 }
@@ -186,6 +190,20 @@ p > a {
   justify-content: space-around;
   display: flex;
   margin: auto;
+}
+
+.about-us-content {
+  padding: 24px;
+}
+
+.about-us-content h1 {
+  text-align: center;
+}
+
+.about-us-content p {
+  line-height: normal;
+  font-size: large;
+  margin: 50px auto;
 }
 
 /* TABLE DESIGN */
@@ -465,10 +483,10 @@ input[type="reset"] {
   transition: 1s ease-in-out;
 }
 
-.form-container:hover {
+/* .form-container:hover {
   box-shadow: none;
   transition: 1s ease-in-out;
-}
+} */
 
 .form-group input {
   align-items: center;
@@ -520,7 +538,7 @@ form h5 {
 }
 
 .thanks-body {
-  background-image: url(../assests/imgs/vecteezy_abstract-blue-background-with-gradient-lines_20122694.jpg);
+  background-image: url(../assests/imgs/backgroundBlue.jpg);
 }
 
 /* CONTACT US PAGE END */
@@ -543,6 +561,7 @@ form h5 {
 
 .service-container p {
   padding: 24px;
+  font-size: large;
 }
 
 .service-container .multi-img {
