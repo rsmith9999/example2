@@ -272,7 +272,6 @@ p > a {
   color: var(--info-text-color);
 }
 
-
 /* TABLE DESIGN END */
 
 /* CONTAINER END */
@@ -628,6 +627,14 @@ form h5 {
     background-color: #fff;
     color: #333;
     border: none;
+  }
+
+  .service-image video {
+    height: auto;
+  }
+
+  .intro-image img {
+    height: auto;
   }
 
   .text-content {
