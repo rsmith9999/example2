@@ -141,6 +141,7 @@ p > a {
 .intro-image img {
   max-width: 100%;
   padding: auto 24px;
+  height: 432px;
 }
 
 .intro-paragraph {
@@ -154,7 +155,7 @@ p > a {
   grid-template-areas:
     "service-title service-title"
     "service-paragraph service-image";
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-area: auto;
   height: fit-content;
   gap: 20px;
@@ -169,12 +170,15 @@ p > a {
 
 .service-image {
   grid-area: service-image;
-  transform: translateY(10%);
+  /* transform: translateY(10%); */
 }
 
-.service-image img {
+.service-image video {
   max-width: 100%;
   padding: auto 24px;
+  border: 1px solid var(--action-color);
+  margin: auto;
+  height: 486px;
 }
 
 .service-paragraph {
@@ -215,6 +219,7 @@ p > a {
   width: 90%;
   margin: 50px auto;
   padding: 24px;
+  gap: 20px;
 }
 
 .card {
@@ -224,6 +229,8 @@ p > a {
   text-align: center;
   font-family: arial;
   background-color: var(--header-color);
+  height: 670px;
+  position: relative;
 }
 
 .card h1 {
@@ -250,6 +257,9 @@ p > a {
   cursor: pointer;
   width: 100%;
   font-size: 18px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .card a {
@@ -261,6 +271,7 @@ p > a {
   opacity: 0.7;
   color: var(--info-text-color);
 }
+
 
 /* TABLE DESIGN END */
 
