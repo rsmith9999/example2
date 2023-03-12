@@ -7,6 +7,7 @@
     <title>Contact Us | ElectroClean | Glasgow</title>
     <link rel="stylesheet" href="./style/style.css" />
     <script src="./source/app.js"></script>
+    <script defer src="./source/scroll.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -47,59 +48,90 @@
       </div>
     </div>
     <div class="container">
-      <div class="form-information">
-        <h1>Want to get in touch?</h1>
-        <p>
-          If you prefer to get in touch with us online, our website features a simple contact form that you can fill out with your details and a brief message about what you're looking for. When using the contact form, please include your name, business name (if applicable), contact number, and email so that we can get back to you promptly. In your message, please provide a brief statement about the services you require or the cleaning challenges you're facing. The more information you can provide, the better we'll be able to understand your needs and tailor our services to meet them. Once we receive your message, our team will get in touch with you as soon as possible to discuss your requirements and provide a free, no-obligation quote.
-        </p>
-      </div>
-      <!-- TEST START -->
-      <div class="form-container">
-        <div class="form-group">
-          <form
-            id="contactform"
-            action="https://formsubmit.co/2f1ca8b0548d04b5fc743c4825efffcc"
-            method="POST"
-          >
-            <h5 class="required">Name/Name of Company:</h5>
-            <input name="name" type="text" id="name" required />
-            <h5 class="required">Email:</h5>
-            <input name="email" type="email" id="email" required />
-            <h5 class="required">Contact Number:</h5>
-            <input
-              type="number"
-              name="contactNumber"
-              pattern="^(\+44\s?7\d{3}|\(?07\d{3}\)?)\s?\d{3}\s?\d{3}$"
-              required
-            />
-            <h5 class="required">What type of work are you looking for?:</h5>
-            <textarea name="comment" id="comment" rows="3" required></textarea>
-
-            <input name="_formsubmit_id" type="text" style="display: none" />
-            <input type="hidden" name="_template" value="table" />
-            <input type="hidden" name="_captcha" value="false" />
-            <input
-              type="hidden"
-              name="_next"
-              value="https://rsmith9999.github.io/example2/thanks.html"
-            />
-
-            <input value="Submit" type="submit" />
-          </form>
+      <section class="hidden">
+        <div class="form-information">
+          <h1>Want to get in touch?</h1>
+          <p>
+            If you prefer to get in touch with us online, our website features a
+            simple contact form that you can fill out with your details and a
+            brief message about what you're looking for. When using the contact
+            form, please include your name, business name (if applicable),
+            contact number, and email so that we can get back to you promptly.
+            In your message, please provide a brief statement about the services
+            you require or the cleaning challenges you're facing. The more
+            information you can provide, the better we'll be able to understand
+            your needs and tailor our services to meet them. Once we receive
+            your message, our team will get in touch with you as soon as
+            possible to discuss your requirements and provide a free,
+            no-obligation quote.
+          </p>
         </div>
-      </div>
-      <!-- TEST END -->
-      <div class="emergency-statement">
-        <h1>Need urgent help?</h1>
-        <p>
-          At ElectroClean Glasgow, we understand that emergencies can happen at any time. That's why we offer 24/7 emergency cleaning services to help our clients when they need it most. Whether you've experienced a flood, fire, or other emergency situation, our team is ready and equipped to provide fast and effective cleaning solutions to help you recover as quickly as possible. We understand the importance of a prompt response in emergency situations, which is why we're committed to providing fast and reliable service whenever you need it. Simply give us a call at [insert phone number] and our team will be there to help you get back on your feet.
-        </p>
-        <br /><br />
-        <h2>Call us on: <b>0808 196 3911</b></h2>
-        <p>
-          In case of an emergency, ElectroClean Glasgow is available 24/7 and can be reached by phone to provide fast and effective cleaning solutions.
-        </p>
-      </div>
+      </section>
+      <section class="hidden">
+        <div class="form-container">
+          <div class="form-group">
+            <form
+              id="contactform"
+              action="https://formsubmit.co/2f1ca8b0548d04b5fc743c4825efffcc"
+              method="POST"
+            >
+              <h5 class="required">Name/Name of Company:</h5>
+              <input name="name" type="text" id="name" required />
+              <h5 class="required">Email:</h5>
+              <input name="email" type="email" id="email" required />
+              <h5 class="required">Contact Number:</h5>
+              <input
+                type="number"
+                name="contactNumber"
+                pattern="^(\+44\s?7\d{3}|\(?07\d{3}\)?)\s?\d{3}\s?\d{3}$"
+                required
+              />
+              <h5 class="required">What type of work are you looking for?:</h5>
+              <textarea
+                name="comment"
+                id="comment"
+                rows="3"
+                required
+              ></textarea>
+
+              <input name="_formsubmit_id" type="text" style="display: none" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://rsmith9999.github.io/example2/thanks.html"
+              />
+
+              <input value="Submit" type="submit" />
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="hidden">
+        <div class="emergency-statement">
+          <h1>Need urgent help?</h1>
+          <p>
+            At ElectroClean Glasgow, we understand that emergencies can happen
+            at any time. That's why we offer 24/7 emergency cleaning services to
+            help our clients when they need it most. Whether you've experienced
+            a flood, fire, or other emergency situation, our team is ready and
+            equipped to provide fast and effective cleaning solutions to help
+            you recover as quickly as possible. We understand the importance of
+            a prompt response in emergency situations, which is why we're
+            committed to providing fast and reliable service whenever you need
+            it. Simply give us a call at [insert phone number] and our team will
+            be there to help you get back on your feet.
+          </p>
+          <br /><br />
+          <h2>Call us on: <b>0808 196 3911</b></h2>
+          <p>
+            In case of an emergency, ElectroClean Glasgow is available 24/7 and
+            can be reached by phone to provide fast and effective cleaning
+            solutions.
+          </p>
+        </div>
+      </section>
     </div>
     <footer>
       <div class="footer-container">

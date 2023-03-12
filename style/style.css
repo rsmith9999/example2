@@ -36,8 +36,8 @@ body {
 
 header {
   background-color: var(--header-color);
-  height: 500px;
-  background-image: url(../assests/imgs/header-curve.svg);
+  /* height: 500px; */
+  /* background-image: url(../assests/imgs/header-curve.svg); */
 }
 
 header a {
@@ -142,6 +142,7 @@ p > a {
   max-width: 100%;
   padding: auto 24px;
   height: 432px;
+  border-radius: 10%;
 }
 
 .intro-paragraph {
@@ -170,7 +171,6 @@ p > a {
 
 .service-image {
   grid-area: service-image;
-  /* transform: translateY(10%); */
 }
 
 .service-image video {
@@ -179,11 +179,11 @@ p > a {
   border: 1px solid var(--action-color);
   margin: auto;
   height: 486px;
+  border-radius: 10%;
 }
 
 .service-paragraph {
   grid-area: service-paragraph;
-  /* color: var(--info-text-color); */
   font-size: 20px;
 }
 
@@ -578,6 +578,61 @@ form h5 {
   display: flex;
   justify-content: space-around;
 }
+
+/* Scroll Effects */
+
+  section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 10vh;
+  }
+
+  .hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+  }
+
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+
+  @media(prefers-reduced-motion) {
+    .hidden {
+      transform: none;
+    }
+  }
+
+  .card:nth-child(2) {
+    transition-delay: 200ms;
+  }
+  .card:nth-child(3) {
+    transition-delay: 300ms;
+  }
+  .card:nth-child(4) {
+    transition-delay: 400ms;
+  }
+  .card:nth-child(5) {
+    transition-delay: 500ms;
+  }
+  .card:nth-child(6) {
+    transition-delay: 600ms;
+  }
+  .card:nth-child(7) {
+    transition-delay: 700ms;
+  }
+  .card:nth-child(8) {
+    transition-delay: 800ms;
+  }
+  .card:nth-child(9) {
+    transition-delay: 900ms;
+  }
+
+/* Scroll Effects END */
 
 /* Service Styles End */
 

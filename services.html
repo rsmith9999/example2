@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./style/services-tabs.css" />
     <script src="./source/app.js"></script>
     <script src="./source/tabs.js"></script>
+    <script defer src="./source/scroll.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -50,53 +51,55 @@
     </div>
     <div class="tab-container">
       <div class="intro-to-services">
-        <h1>What do we offer?</h1>
-        <p>
-          ElectroClean Glasgow offers a range of cleaning services to meet the
-          unique needs of our clients. Our services include:
-        </p>
-        <ul>
-          <li>
-            Commercial cleaning: We provide regular office cleaning, retail
-            cleaning, and other commercial cleaning services to help businesses
-            maintain a clean and professional environment.
-          </li>
-          <li>
-            Biohazard cleaning: We're certified to handle biohazardous
-            materials, including blood, bodily fluids, and other potentially
-            hazardous materials.
-          </li>
-          <li>
-            Trauma cleaning: We offer discreet and compassionate trauma cleaning
-            services to help individuals and families recover from traumatic
-            events.
-          </li>
-          <li>
-            Infection control: We use advanced cleaning technology and methods
-            to help prevent the spread of infectious diseases in healthcare
-            facilities, schools, and other settings.
-          </li>
-          <li>
-            Tenancy cleaning: We offer end-of-tenancy cleaning services to help
-            landlords and tenants ensure that properties are clean and ready for
-            new occupants.
-          </li>
-          <li>
-            Oven cleaning and kitchen deep cleaning: We provide comprehensive
-            cleaning services for kitchens, including oven cleaning, deep
-            cleaning of floors and surfaces, and more.
-          </li>
-          <li>
-            High-level cleaning: We have the equipment and expertise to clean
-            hard-to-reach areas, such as ceilings, walls, and high windows.
-          </li>
-        </ul>
-        <p>
-          Whatever your cleaning needs may be, ElectroClean Glasgow has the
-          expertise and equipment to get the job done right. Contact us today to
-          learn more about our services and how we can help you maintain a
-          clean, healthy, and safe environment.
-        </p>
+        <section class="hidden">
+          <h1>What do we offer?</h1>
+          <p>
+            ElectroClean Glasgow offers a range of cleaning services to meet the
+            unique needs of our clients. Our services include:
+          </p>
+          <ul>
+            <li>
+              Commercial cleaning: We provide regular office cleaning, retail
+              cleaning, and other commercial cleaning services to help
+              businesses maintain a clean and professional environment.
+            </li>
+            <li>
+              Biohazard cleaning: We're certified to handle biohazardous
+              materials, including blood, bodily fluids, and other potentially
+              hazardous materials.
+            </li>
+            <li>
+              Trauma cleaning: We offer discreet and compassionate trauma
+              cleaning services to help individuals and families recover from
+              traumatic events.
+            </li>
+            <li>
+              Infection control: We use advanced cleaning technology and methods
+              to help prevent the spread of infectious diseases in healthcare
+              facilities, schools, and other settings.
+            </li>
+            <li>
+              Tenancy cleaning: We offer end-of-tenancy cleaning services to
+              help landlords and tenants ensure that properties are clean and
+              ready for new occupants.
+            </li>
+            <li>
+              Oven cleaning and kitchen deep cleaning: We provide comprehensive
+              cleaning services for kitchens, including oven cleaning, deep
+              cleaning of floors and surfaces, and more.
+            </li>
+            <li>
+              High-level cleaning: We have the equipment and expertise to clean
+              hard-to-reach areas, such as ceilings, walls, and high windows.
+            </li>
+          </ul>
+          <p>
+            Whatever your cleaning needs may be, ElectroClean Glasgow has the
+            expertise and equipment to get the job done right. Contact us today
+            to learn more about our services and how we can help you maintain a
+            clean, healthy, and safe environment.
+          </p>
+        </section>
       </div>
       <div class="service-tabs">
         <div class="w3-bar w3-black">
@@ -156,7 +159,7 @@
           </button>
         </div>
 
-        <div id="commercialClean" class="w3-container ecgService">
+        <div id="commercialClean" class="w3-container ecgService hidden">
           <h2>Commercial Cleaning</h2>
           <p>
             ElectroClean's commercial cleaning services are designed to help
@@ -173,7 +176,7 @@
 
         <div
           id="tenancyClean"
-          class="w3-container ecgService"
+          class="w3-container ecgService hidden"
           style="display: none"
         >
           <h2>Tenancy Cleans</h2>
@@ -193,7 +196,7 @@
 
         <div
           id="ovenCleans"
-          class="w3-container ecgService"
+          class="w3-container ecgService hidden"
           style="display: none"
         >
           <h2>Oven Cleans</h2>
@@ -211,7 +214,7 @@
 
         <div
           id="infectionControl"
-          class="w3-container ecgService"
+          class="w3-container ecgService hidden"
           style="display: none"
         >
           <h2>Infection Control</h2>
@@ -231,7 +234,7 @@
 
         <div
           id="pestControl"
-          class="w3-container ecgService"
+          class="w3-container ecgService hidden"
           style="display: none"
         >
           <h2>Pest Control</h2>
@@ -249,7 +252,7 @@
 
         <div
           id="traumaCleans"
-          class="w3-container ecgService"
+          class="w3-container ecgService hidden"
           style="display: none"
         >
           <h2>Trauma Cleans</h2>
@@ -268,7 +271,7 @@
 
         <div
           id="biohazardCleans"
-          class="w3-container ecgService"
+          class="w3-container ecgService hidden"
           style="display: none"
         >
           <h2>Biohazard Cleans</h2>
@@ -287,7 +290,7 @@
 
         <div
           id="highLevelCleans"
-          class="w3-container ecgService"
+          class="w3-container ecgService hidden"
           style="display: none"
         >
           <h2>High Level Cleaning</h2>
@@ -307,7 +310,7 @@
 
         <div
           id="kitchenDeepCleans"
-          class="w3-container ecgService"
+          class="w3-container ecgService hidden"
           style="display: none"
         >
           <h2>Kitchen Deep Cleans</h2>
@@ -325,18 +328,25 @@
           </p>
         </div>
       </div>
-      <h2>Have any questions?</h2>
-      <p>
-        If you have any questions about our services or don't see something that
-        you're looking for, you can contact us
-        <a href="./contact-us.html" target="_self">here</a>.
-      </p>
-      <h2>Have an Emergency?</h2>
-      <p>
-        Call us on: <b>0808 196 3911</b> <br /><br />
-        In case of an emergency, ElectroClean Glasgow is available 24/7 and can
-        be reached by phone to provide fast and effective cleaning solutions.
-      </p>
+      <section class="hidden">
+        <div class="section-contact-us-anchor">
+          <div class="section-contact-us-anchor-content">
+            <h2>Have any questions?</h2>
+            <p>
+              If you have any questions about our services or don't see
+              something that you're looking for, you can contact us
+              <a href="./contact-us.html" target="_self">here</a>.
+            </p>
+            <h2>Have an Emergency?</h2>
+            <p>
+              Call us on: <b>0808 196 3911</b> <br /><br />
+              In case of an emergency, ElectroClean Glasgow is available 24/7
+              and can be reached by phone to provide fast and effective cleaning
+              solutions.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
     <footer>
       <div class="footer-container">
